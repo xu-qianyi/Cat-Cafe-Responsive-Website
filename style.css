@@ -1,0 +1,379 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    padding-top: 2rem;
+    background-color: rgb(255, 252, 237);
+}
+
+
+h3 {
+    font-size: 20px;
+    margin: 8px;
+}
+
+p {
+    margin: 8px;
+}
+
+/*Below is for header section*/
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 2.5rem;
+    list-style: none;
+    padding: 3rem 2rem;
+    margin: 0;
+
+    background-color: rgb(230, 228, 228);
+    font-size: 2rem;
+}
+
+/*below is for navigation menu*/
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style: none;
+
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(247, 237, 178);
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+
+ul li a {
+    display: block;
+    padding: 16px 24px;
+    color: black;
+    text-decoration: none;
+    width: auto;
+
+    font-size: 16px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: rgb(247, 237, 178);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: rgb(250, 233, 135);
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/*Below is for cats in our cafe section*/
+
+.cat-cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-color: rgb(255, 252, 237);
+}
+
+.content-photo {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+}
+
+.title {
+    grid-column: span 12;
+
+    justify-self: center;
+    width: auto;
+}
+
+
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.book-button {
+    display: block;
+    text-align: center;
+
+    margin-top: auto;
+    align-self: center;
+    padding: 1rem;
+    width: 20%;
+    border-radius: 0.5rem;
+
+    background-color: rgb(61, 107, 188);
+
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+.content-photo {
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+/*Below is for food and drink section*/
+.food-cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(237, 247, 255); 
+}
+
+  
+
+.food-card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    transition: box-shadow 0.3s ease;
+}
+
+.order-button {
+    display: block;
+    text-align: center;
+
+    margin-top: auto;
+    align-self: center;
+    padding: 1rem;
+    width: 20%;
+    border-radius: 0.5rem;
+
+    background-color: rgb(150, 188, 61);
+
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Below is for footer section*/
+.footer {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-evenly;
+
+    padding: 1rem;
+
+    background-color: rgb(14, 14, 14);
+}
+
+.footer-link {
+    grid-column: span 12;
+
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer-link a {
+    grid-template-columns: span 12;
+
+    padding: 1 rem;
+
+    color: white;
+
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-link a:hover {
+    color: rgb(190, 206, 233);
+}
+
+/*below is for about us page*/
+
+    .about{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        padding: 1rem;
+        background-color: rgb(255, 252, 237);
+        align-items: center;
+        justify-content: center;
+    }
+    .cat-cafe-image{
+        grid-column: span 12;
+        display: flex;
+        
+        justify-content: center;
+        
+    }
+
+    .introduction {
+        grid-column: 4/ span 6;
+
+
+    }
+    .about-header {
+        grid-column: span 12;
+        text-align: center;
+
+    }
+    /*below is register page*/
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items:stretch;
+    
+        margin: auto;
+        padding: 40px;
+        background-color: #f9e685;
+        width: 300px;
+    
+        font-family: Helvetica, sans-serif;
+    }
+    .name, .email, .identity-option {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .form-group, .name, .email, .email-request, .identity-option {
+        margin-bottom: 16px; 
+        margin-top: 16px;
+    }
+
+    .submit-button {
+        display: block;
+    
+        margin-top: 20px;
+        padding: 12px;
+        
+        background-color: #4c51af;
+        color: white;
+        border: none;
+        border-radius: 4px;
+      
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .required {
+        color: red;
+    }
+    .form-header{
+        margin: auto;
+    }
+    input, select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    
+        font-size: 14px;
+        margin-left: 4px;
+        margin-top: 2px;
+    }
+
+@media(min-width:50rem) {
+    body {
+        padding-top: 0;
+    }
+
+    .branding {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+    .card {
+        grid-column: span 4;
+    }
+    .food-card {
+        grid-column: span 3;
+    }
+    
+    .footer-link {
+        grid-column: span 4;
+    }
+
+    form{
+        width: 400px;
+        background-color: #fff6cb;
+    }
+    
+}
